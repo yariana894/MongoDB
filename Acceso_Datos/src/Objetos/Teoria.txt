@@ -1,0 +1,13 @@
+
+
+ESCRIBIR EN OBJETO:
+    FileOutputStream
+    ObjetctOutputStream
+    Métodos
+           writeObject()
+
+LEER
+    FileInputStream
+    ObjectInputStream
+    Métodos
+        readdObject()

@@ -1,0 +1,375 @@
+<----------------------------------------FICHEROS TXT: ---------------------------------------->
+
+<-------------------- Leer un fichero: -------------------->
+
+
+try {
+
+    File f = new File("texto.txt");
+    FileReader fr = new FileReader(f);
+    BufferedReader br = new BufferedReader(fr);
+
+    String linea;
+    while ((linea = br.readLine()) != null) {
+        System.out.println(linea);
+    }
+
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+
+<------------------- Escribir un fichero: -------------------->
+
+String linea = "ABCDE";
+
+try {
+    fw = new FileWriter(f1);
+    bw = new BufferedWriter(fw);
+
+    for (int i = 0; i < 5; i++) {
+        bw.write(linea);
+    }
+    bw.close();
+
+} catch (IOException e) {
+    e.printStackTrace();
+}
+
+
+<---------------------------------------- FICHEROS OBJETOS: ---------------------------------------->
+
+!!!!! Necesarios una clase para el objeto y la clase Overwrite !!!!!
+
+<-------------------- INI: -------------------->
+public static FileOutputStream fos;
+public static ObjectOutputStream oos;
+public static FileInputStream fis = null;
+public static ObjectInputStream ois = null;
+
+
+<-------------------- Check existance: -------------------->
+public static void addArt() {
+    if (f.exists()) {
+        appendData();
+    } else {
+        addData();
+    }
+}
+
+<-------------------- Add Data: -------------------->
+try {
+    fos = new FileOutputStream(f);
+    oos = new ObjectOutputStream(fos);
+
+    Articulo a = createArt();
+
+    oos.writeObject(a);
+
+    fos.close();
+    oos.close();
+
+} catch (FileNotFoundException e) {
+    System.out.println("No se ha encontrado el fichero");
+} catch (IOException e) {
+    System.out.println("Error");
+}
+
+<-------------------- Append Data: -------------------->
+try {
+    fos = new FileOutputStream(f, true);
+    Overwrite ow = new Overwrite(fos);
+
+    Articulo a = createArt();
+
+    ow.writeObject(a);
+
+    fos.close();
+    ow.close();
+
+
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+
+<-------------------- Create object (comprobando si existe el codigo: -------------------->
+boolean esisten = true;
+int code = 0;
+
+while (esisten) {
+    code = Integer.parseInt(introducirDatos.introducirDatos("Introducir codigo: "));
+    esisten = checkCode(code);
+}
+
+Articulo artAdd = new Articulo(code,
+        introducirDatos.introducirDatos("Introduce la descripcion: "),
+        Double.parseDouble(introducirDatos.introducirDatos("Introduce el PVP: ")),
+        Integer.parseInt(introducirDatos.introducirDatos("Introduce el stock actual: ")),
+        Integer.parseInt(introducirDatos.introducirDatos("Introducir el stock minimo: "))
+        );
+System.out.println(artAdd);
+return artAdd;
+
+<-------------------- Check Code: -------------------->
+int code;
+boolean res = false;
+
+try {
+    fis = new FileInputStream(f);
+    ois = new ObjectInputStream(fis);
+
+    while (true) {
+        Articulo a;
+        a = (Articulo) ois.readObject();
+        code = a.getCodigo();
+        if (code == check) {
+            System.out.println("El codigo ya existe");
+            res = true;
+        }
+    }
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    System.out.println();
+} catch (ClassNotFoundException e) {
+    e.printStackTrace();
+}
+
+return res;
+
+<-------------------- Read Data: -------------------->
+try {
+    fis = new FileInputStream(f);
+    ois = new ObjectInputStream(fis);
+
+    while (true) {
+        Articulo a;
+        a = (Articulo) ois.readObject();
+        print(a);
+    }
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    System.out.println("Fin de la lectura");
+} catch (ClassNotFoundException e) {
+    e.printStackTrace();
+}
+
+System.out.println("TOTAL FINAL: " + total);
+
+<---------------------------------------- FICHEROS ALEATORIOS ---------------------------------------->
+
+<-------------------- Tabla tipo de dato => tamaño en bytes -------------------->
+byte: 1
+boolean: 1
+short: 2
+int: 4
+long: 4
+float: 4
+double: 8
+String: l*2
+
+<-------------------- INI -------------------->
+public static RandomAccessFile raf = null;
+public static File f = new File("AlunmnosExamenJueves.dat");
+public static final int tReg = 100;
+
+Casos:
+public static void casos(int op) {
+    switch (op) {
+        case 1:
+            add();
+            break;
+        case 2:
+            list();
+            break;
+        case 3:
+            modify();
+            break;
+        case 4:
+            System.out.println("Saliendo");
+            break;
+        default:
+            System.out.println("Opcion no valida");
+    }
+}
+
+<-------------------- Add Register: -------------------->
+int code;
+int cont = 1;
+
+try {
+    raf = new RandomAccessFile(f, "rw");
+    do {
+        code = Integer.parseInt(introducirDatos.introducirDatos("Codigo: "));
+        nombre = l30(introducirDatos.introducirDatos("Nombre: "));
+        notaAccesoDatos = insertNota("Nota Acceeso Datos: ");
+
+
+        if (code != 0) {
+            raf.seek((code-1)*tReg);
+            raf.writeInt(code);
+            raf.writeUTF(nombre);
+        }
+
+
+        cont = Integer.parseInt(introducirDatos.introducirDatos("Pulsa 1 para insertar otro alumno: "));
+
+    } while (cont == 1);
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    System.out.println("Error en la entrada/salida de datos");
+}
+
+finally {
+    try {
+        raf.close();
+    } catch (IOException e) {
+        System.out.println(" Error al cerrar el fichero");
+    }
+}
+
+<-------------------- Check Length: -------------------->
+if(str.length() >= 30 ) {
+    str = str.substring(0,30);
+} else {
+    for (int i = str.length(); i <= 30; i++) {
+        str += " ";
+    }
+}
+
+return str;
+
+<-------------------- Check nota: -------------------->
+int nota = -1;
+
+do {
+    nota = Integer.parseInt(introducirDatos.introducirDatos(str));
+} while (nota < 0 || nota > 10);
+
+return nota;
+
+<-------------------- Listar: -------------------->
+try  {
+    raf = new RandomAccessFile(f, "r");
+
+    long nReg = f.length() / tReg;
+
+    for (int i = 0; i <= nReg; i++) {
+        raf.seek(i * tReg);
+        code = raf.readInt();
+        nombre = raf.readUTF();
+        notaInterfaces = raf.readInt();
+        notaMultimedia = raf.readInt();
+        notaServicios = raf.readInt();
+        notaSistemas = raf.readInt();
+        notaEmpresa = raf.readInt();
+
+        double notaMedia = (notaInterfaces + notaMultimedia + notaServicios + notaSistemas + notaEmpresa) / 5;
+
+        System.out.println("Codigo: " + code + "\t"
+                + "Nombre: " + nombre + "\t"
+                + "Nota Interefaces: " + notaInterfaces + "\t"
+                + "Nota Multimedia: " + notaMultimedia + "\t"
+                + "Nota Servicios: " + notaServicios + "\t"
+                + "Nota Sistemas: " + notaSistemas + "\t"
+                + "Nota Empresa: " + notaEmpresa + "\t"
+                + "Nota media: " + notaMedia);
+    }
+
+    raf.close();
+
+} catch (FileNotFoundException e) {
+    e.printStackTrace();
+} catch (IOException e) {
+    System.out.println("Error en la entrada/salida de datos");
+}
+
+finally {
+    try {
+        raf.close();
+    } catch (IOException e) {
+        System.out.println("Error al cerrar el fichero");
+    }
+}
+
+<-------------------- Modificar: -------------------->
+int code, notaAccesoDatos, notaInterfaces, notaMultimedia, notaServicios, notaSistemas, notaEmpresa;
+String nombre, respuesta;
+
+long nReg = f.length() / tReg;
+
+if (nReg > 0) {
+    try {
+
+        raf = new RandomAccessFile (f,"rw");
+
+        code = Integer.parseInt(introducirDatos.introducirDatos("Introducir la clave a modificar. < 0 para Finalizar>: "));
+        while(code != 0){
+            raf.seek((code-1) * tReg);
+
+            code = raf.readInt();
+            if(code != 0) {
+                raf.seek((code - 1) * tReg);
+                code = raf.readInt();
+                nombre = raf.readUTF();
+                notaInterfaces = raf.readInt();
+                notaMultimedia = raf.readInt();
+                notaServicios = raf.readInt();
+                notaSistemas = raf.readInt();
+                notaEmpresa = raf.readInt();
+
+                System.out.println("Codigo: " + code + "\t"
+                        + "Nombre: " + nombre + "\t"
+                        + "Nota Interefaces: " + notaInterfaces + "\t"
+                        + "Nota Multimedia: " + notaMultimedia + "\t"
+                        + "Nota Servicios: " + notaServicios + "\t"
+                        + "Nota Sistemas: " + notaSistemas + "\t"
+                        + "Nota Empresa: " + notaEmpresa + "\t");
+
+                respuesta = introducirDatos.introducirDatos(("Desea modificar el registro. S/N"));
+                if (respuesta.equalsIgnoreCase("s") ){
+
+                    code = Integer.parseInt(introducirDatos.introducirDatos("Codigo: "));
+                    nombre = l30(introducirDatos.introducirDatos("Nombre: "));
+                    notaAccesoDatos = insertNota("Nota Acceeso Datos: ");
+                    notaMultimedia = insertNota("Nota Multimedia: ");
+                    notaServicios = insertNota("Nota Servicios: ");
+                    notaSistemas = insertNota("Nota Sistemas: ");
+                    notaEmpresa = insertNota("Nota Empresa: ");
+
+
+                    raf.seek((code-1) * tReg);
+                    raf.writeInt(code);
+                    raf.writeUTF(nombre);
+                    raf.writeInt(notaAccesoDatos);
+                    raf.writeInt(notaMultimedia);
+                    raf.writeInt(notaServicios);
+                    raf.writeInt(notaSistemas);
+                    raf.writeInt(notaEmpresa);
+
+                }
+            }
+
+
+            code = Integer.parseInt(introducirDatos.introducirDatos("Introducir el codigo. < 0 para Finalizar>: "));
+        }// fin while
+    }catch(NumberFormatException nfe){
+        System.out.println("Error al introducir los datos");
+    }catch (IOException ioe) {
+        System.out.println("Error de posicionamiento o lectura");
+        System.out.println(ioe.getMessage());
+    }finally{
+        try{
+            raf.close();
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+} else {
+    System.out.println("Aun no se ha insertado ningun registro");
+}

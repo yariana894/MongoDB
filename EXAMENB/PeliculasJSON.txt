@@ -1,0 +1,489 @@
+{ 
+    "pelicula":{
+        "titulo" : "Lincoln", 
+        "director" : "Steven Spielberg", 
+        "genero" : "Drama Historico", 
+	"pais": "Estados Unidos",
+        "Anho" : 2013, 
+        "formato" : "AVI", 
+        "precio" : 5.0, 
+        "vista" : true, 
+        "calificacion" : "Buena", 
+        "duracion" : 149, 
+        "recaudacion": 275.3,
+        "argumento" : "En 1865, mientras la Guerra Civil Americana se acerca a su fin, el presidente Abraham Lincoln propone una enmienda que prohiba la esclavitud en los Estados Unidos. Sin embargo esto plantea un gran dilema: si la paz llega antes de que se apruebe la enmienda, el Sur tendra poder para rechazarla y mantener la esclavitud; si la paz llega despues, decenas de miles de personas seguiran muriendo en el frente. En una carrera contrarreloj para conseguir los votos necesarios, Lincoln se enfrenta a la mayor crisis de conciencia de su vida."
+    },
+    
+    "actores":
+    [
+	{
+		"actor": {"Apellidos" : "Day-Lewis",  "Nombre" : "Daniel" },
+   		"pais" : "Reino Unido", 
+   		"sexo" : "Hombre", 
+   		"fecNacimiento" : "1957/04/29"
+	}
+    ],
+
+ "premios":
+    [
+	"2012: 2 Oscar: mejor actor (Day-Lewis) y dirección artística. 12 nominaciones",
+	"2012: Globos de Oro: Mejor actor dramático (Daniel Day-Lewis). 7 nominaciones",
+	"2012: Critics Choice Awards: Mejor actor (Lewis), guión adaptado, BSO. 13 nomin.",
+	"2012: Premios BAFTA: Mejor actor (Daniel Day-Lewis). 10 nominaciones",
+	"2012: Círculo de Críticos de Nueva York: 3 premios, incl. mejor actor (Day-Lewis). 4 nom.",
+	"2012: Satellite Awards: Mejor dirección artística. 8 nominaciones",
+	"2012: National Board of Review (NBR): 10 mejores películas del año",
+	"2012: American Film Institute: Top 10 - Mejores películas del año",
+	"2012: Asociación de Críticos de Chicago: Mejor actor y guion adaptado. 8 Nominaciones",
+	"2012: Asociación de Críticos de Boston: 3 premios, incl. mejor actor (Day-Lewis)",
+	"2012: Círculo de Críticos de San Francisco: Mejor actor sec. (Jones) y guion adaptado",
+	"2012: Sindicato de Productores (PGA): Nominada a mejor película",
+	"2012: Sindicato de Directores (DGA): Nominada a mejor director",
+	"2012: Sindicato de Guionistas (WGA): Nominada a mejor guion adaptado",
+	"2012: Sindicato de Actores (SAG): Mejor actor (Day-Lewis) y actor sec. (Jones). 4 nom",
+	"2012: Premios David di Donatello: Nominada a mejor film extranjero"
+	]
+   
+}
+
+
+{ 
+    "pelicula":
+    {
+        "titulo" : "Argo", 
+        "director" : "Ben Affleck", 
+        "genero" : "Drama", 
+	"pais": "Estados Unidos",
+        "Anho" : 2012, 
+        "formato" : "AVI", 
+        "precio" : 10.0, 
+        "vista" : true, 
+        "calificacion" : "Muy Buena", 
+        "duracion" : 120, 
+         "recaudacion": 232.3,
+        "argumento" : "Iran, anho 1979- Cuando la embajada de los EEUU en Tehheran es ocupada por seguidores del Ayatola Jomeini para pedir la extradicion del Sha de persia, la CIA y el gobierno canadiense organizaron una operacion para rescatar a seis diplomaticos estadounidenses que se habian refugiado en la casa del embajador de Canada. Con este fin se recurrio a un experto en rescatar rehenes y se preparo el escenario para el rodaje de una pelicula de ciencia-ficcion, de titulo -Argo-, en la que participaba un equipo de cazatalentos de Hollywood. La mision: ir a Teheran y hacer pasar a los diplomaticos por un equipo de filmacion canadiense para traerlos de vuelta a casa."
+       
+    },   
+    "actores":[
+	{
+		"actor": { "Apellidos" : "Affleck", "Nombre" : "Ben"},
+    			"pais" : "EEUU", 
+    			"sexo" : "Hombre", 
+    			"fecNacimiento" : "1972/08/15"
+	},
+	{
+		"actor": { "Apellidos" : "Goodman", "Nombre" : "John"},
+    			"pais" : "EEUU", 
+    			"sexo" : "Hombre", 
+    			"fecNacimiento" : "1952/06/20"
+	},
+	{
+		"actor": { "Apellidos" : "Duvall", "Nombre" : "Clea"},
+    			"pais" : "EEUU", 
+    			"sexo" : "Mujer",
+    			"fecNacimiento" : "1977/09/25"
+	}
+    ],
+	"premios":[
+	"2012: 3 Oscar: mejor película, guion adaptado y montaje. 7 nominaciones",
+	"2012: 2 Globos de Oro: Mejor película dramática y mejor director. 5 nominaciones",
+	"2012: 3 Premios BAFTA, incluyendo mejor película y director. 7 nominaciones",
+	"2012: 2 Critics Choice Awards: Mejor película y mejor director. 7 nominaciones",
+	"2012: Círculo de Críticos de Nueva York: Nominada a mejor película y mejor director",
+	"2012: Premios César: Mejor película extranjera",
+	"2012: Festival de Toronto: Nominada al Premio del Público (Mejor película)",
+	"2012: Satellite Awards: Mejor banda sonora. 4 nominaciones, incluyendo mejor película",
+	"2012: National Board of Review (NBR): 10 mejores films, Mención especial Ben Affleck (dir.)",
+	"2012: Asociación de Críticos de Los Angeles: Mejor guion. 2 nominaciones",
+	"2012: American Film Institute (AFI): Top 10 - Mejores películas del año",
+	"2012: Sindicato de Productores (PGA): Mejor película",
+	"2012: Sindicato de Directores (DGA): Mejor director",
+	"2012: Sindicato de Guionistas (WGA): Mejor guion adaptado",
+	"2012: Asociación de Críticos de Chicago: 5 nominaciones incluyendo mejor película",
+	"2012: Asociación de Críticos de Boston: Nominada a mejor montaje",
+	"2012: Círculo de Críticos de San Francisco: Mejor montaje",
+	"2012: Sindicato de Actores (SAG): Mejor reparto (Largometraje). 2 nominaciones",
+	"2012: Premios David di Donatello: Nominada a mejor film extranjero"
+	]
+}
+
+
+{
+    "pelicula" : 
+	{
+    	"titulo" : "Spotlight",
+    	"director" : "Thomas McCarthy",
+    	"genero" : "Drama Historico",
+	"pais": "Estados Unidos",
+    	"Anho" : 2016,
+    	"formato" : "AVI",
+    	"precio" : 6.5,
+    	"vista" : true,
+   	 "calificacion" : "Muy Buena",
+   	 "duracion" : 118,
+    	 "recaudacion": 98.3,
+    	"argumento" : "SPOTLIGHT, narra la fascinante historia real de la investigacion ganadora del Premio Pulitzer llevada a cabo por el Boston Globe que sacudio la ciudad y causo una enorme crisis en una de las instituciones mas antiguas y seguidas del mundo.\r\nCuando el tenaz equipo de reporteros de la seccion ?Spotlight? ahonda en los alegatos de abuso dentro de la Iglesia Catolica, descubren en su investigacion el encubrimiento llevado a cabo durante decadas por parte de las altas esferas de organizaciones religiosas, legales y gubernamentales de Boston, desatando una ola de revelaciones alrededor del mundo."
+   
+    },
+ "actores":[
+	{
+		"actor": { "Apellidos" : "Keaton",    "Nombre" : "Michael"},
+    		"pais" : "EEUU", 
+   		 "sexo" : "Hombre", 
+   		 "fecNacimiento" : "1951/09/05"
+	},
+	{
+		"actor": { "Apellidos" : "Ruffalo", "Nombre" : "Mark" },
+   		 "pais" : "EEUU", 
+    		"sexo" : "Hombre", 
+    		"fecNacimiento" : "1967/11/22"
+	}
+        ],
+        
+    "premios":[
+        "2015: 2 Premios Oscar: mejor película y guión original. 6 nominaciones",
+        "2015: Globos de Oro: Nominada a mejor película drama, director y guión",
+	"2015: Premios BAFTA: Mejor guión original",
+	"2015: Premios David di Donatello: Nominado a mejor film extranjero",
+	"2015: American Film Institute (AFI): Top 10 - Mejores películas del año",
+	"2015: Festival de Toronto: 2ª Finalista Mejor película",
+	"2015: Festival de Venecia: Sección oficial largometrajes (fuera de concurso)",
+	"2015: Premios Independent Spirit: 5 premios incluyendo mejor película y director",
+	"2015: National Board of Review (NBR): Mejores 10 películas del año",
+	"2015: Círculo de Críticos de Nueva York: Mejor actor (Keaton)",
+	"2015: Asociación de Críticos de Los Angeles: Mejor película y guión",
+	"2015: Critics Choice Awards: Mejor película, reparto y guión original",
+	"2015: Sindicato de Productores (PGA): Nominada a Mejor película",
+	"2015: Sindicato de Directores (DGA): Nominada a mejor director",
+	"2015: Sindicato de Guionistas (WGA): Mejor guión original",
+	"2015: Sindicato de Actores (SAG): Mejor reparto",
+	"2015: Premios Gotham: Mejor película, reparto y guión",
+	"2015: Satellite Awards: Mejor película, director, guión y reparto. 8 nominaciones",
+	"2015: Asociación de Críticos de Chicago: Mejor guión. 4 nominaciones",
+	"2015: Asociación de Críticos de Boston: 3 premios, incl. a mejor película. 5 nom.",
+	"2015: Círculo de Críticos de San Francisco: Mejor película. 3 nominaciones"
+]
+        
+}
+
+{
+    "pelicula" : 
+    {
+  	  "titulo" : "Gran Torino",
+   	 "director" : "Clint Eastwood",
+   	 "genero" : "Drama",
+	"pais": "Estados Unidos",
+   	 "Anho" : 2009,
+   	 "formato" : "FLV",
+   	 "precio" : 4.0,
+   	 "vista" : true,
+   	 "calificacion" : "Muy Buena",
+  	  "duracion" : 118,
+  	  "recaudacion": 270.0,
+  	  "argumento" : "Walt Kowalski (Clint Eastwood), un veterano de la guerra de Corea (1950-1953), es un obrero jubilado del sector del automovil que ha enviudado recientemente. Su maxima pasion es cuidar de su mas preciado tesoro: un coche Gran Torino de 1972. Es un hombre inflexible y cascarrabias, al que le cuesta trabajo asimilar los cambios que se producen a su alrededor, especialmente la llegada de multitud de inmigrantes asiaticos a su barrio. Sin embargo, las circustancias haran que se vea obligado a replantearse sus ideas."
+    },
+    
+    "actores":[
+	{
+		"actor": { "Apellidos" : "Eastwood",    "Nombre" : "Clint"},
+    		"pais" : "EEUU", 
+   		 "sexo" : "Hombre", 
+   		 "fecNacimiento" : "1930/05/31"
+	},
+	{
+		"actor": { "Apellidos" : "Hughes", "Nombre" : "Geraldine" },
+   		 "pais" : "Reino Unido", 
+    		"sexo" : "Mujer", 
+    		"fecNacimiento" : "1970/11/22"
+	}
+        ],
+        
+    "premios":[
+        "2009: Premios César: Mejor película extranjera",
+        "2008: Globos de Oro: Nominada a la Mejor canción",
+        "2008: Círculo de Críticos de Nueva York: Nominada a mejor actor (Clint Eastwood)",
+        "2008: National Board of Review: Mejor actor (Clint Eastwood), mejor guión original",
+        "2008: Premios David di Donatello: Mejor film extranjero",
+        "2008: American Film Institute (AFI): Top 10 - Mejores películas del año",
+        "2008: Critics' Choice Awards: Nominado Mejor actor (Clint Eastwood)",
+        "2008: Asociación de Críticos de Chicago: Nominada a mejor actor (Clint Eastwood).",
+        "2009: Premios Sur: Nominada a mejor película extranjera"
+        
+        ]
+ 
+}
+
+
+{
+    "pelicula" : 
+    {
+  	  "titulo" : "El gran dictador",
+  	  "director" : "Charles Chaplin",
+ 	   "genero" : "Drama",
+	   "pais": "Estados Unidos",
+   		 "Anho" : 1940,
+   	 "formato" : "VHS",
+   	 "precio" : 12.5,
+   	 "vista" : true,
+   	 "calificacion" : "Muy Buena",
+   	 "duracion" : 128,
+  	  "recaudacion": 3.5,
+   	 "argumento" : "Un humilde barbero judío que combatió con el ejército de Tomania en la Primera Guerra Mundial vuelve a su casa años después del fin del conflicto. Amnésico a causa de un accidente de avión, no recuerda prácticamente nada de su vida pasada, y no conoce la situación política actual del país: Adenoid Hynkel, un dictador fascista y racista, ha llegado al poder y ha iniciado la persecución del pueblo judío, a quien considera responsable de la situación de crisis que vive el país. Paralelamente, Hynkel y sus colaboradores han empezado a preparar una ofensiva militar destinada a la conquista de todo el mundo."
+     },
+    
+    "actores":[
+	{
+		"actor": { "Apellidos" : "Chaplin",    "Nombre" : "Charles"},
+    		"pais" : "Reino Unido", 
+   		 "sexo" : "Hombre", 
+   		 "fecNacimiento" : "1889/04/16"
+	},
+	{
+		"actor": { "Apellidos" : "Goddard", "Nombre" : "Paulette" },
+   		 "pais" : "EEUU", 
+    		"sexo" : "Mujer", 
+    		"fecNacimiento" : "1910/06/03"
+	}
+        ],
+        
+    "premios":[
+        "1940: 5 nominaciones al Oscar, incluyendo mejor película, actor (Chaplin) y guión",
+        "1940: Círculo de Críticos de Nueva York: Mejor actor (Charles Chaplin)"
+        
+        ]
+ 
+}
+{
+    "pelicula" : 
+    {
+  	  "titulo" : "Candilejas",
+   	 "director" : "Charles Chaplin",
+  	  "genero" : "Drama",
+	"pais": "Estados Unidos",
+   	 "Anho" : 1952,
+  	  "formato" : "VHS",
+  	  "precio" : 6.0,
+  	  "vista" : true,
+  	  "calificacion" : "Muy Buena",
+  	  "duracion" : 145,
+         "recaudacion": 0.306,
+   	 "argumento" : "Un viejo payaso (Charles Chaplin), despues de evitar el suicidio de una joven bailarina (Claire Bloom), no solo la cuida, sino que, ademas, se ocupa de ensenharle todo lo que sabe sobre el mundo del teatro para hacerla triunfar. ultimo y melancolico film americano de Chaplin."
+    },
+    
+    "actores":[
+	{
+		"actor": { "Apellidos" : "Chaplin",    "Nombre" : "Charles"},
+    		"pais" : "Reino Unido", 
+   		 "sexo" : "Hombre", 
+   		 "fecNacimiento" : "1889/04/16"
+	}
+        ],
+        
+    "premios":[
+        "1972: Oscar: Mejor banda sonora (el film se estrenó en Los Ángeles en 1972)",
+    "1952: Premios BAFTA: Mejor promesa (Claire Bloom). Nominada a mejor película",
+    "1952: National Board of Review: 10 mejores películas del año",
+    "1952: Círculo de Críticos de Nueva York: Nominada a mejor actor (Charles Chaplin)",
+    "1952: National Board of Review: Top Mejores películas del año"
+        
+        ]
+ 
+}
+
+
+{
+     "pelicula" : 
+    {
+   	 "titulo" : "Un tranvia llamado deseo",
+  	  "director" : "Elia Kazan",
+  	  "genero" : "Drama",
+	"pais": "Estados Unidos",
+  	  "Anho" : 1951,
+  	 "formato" : "VHS",
+   	 "precio" : 5.0,
+   	 "vista" : true,
+   	 "calificacion" : "Muy Buena",
+   	 "duracion" : 122,
+         "recaudacion": 8.0,
+  	  "argumento" : "Blanche, que pertenece a una rancia pero arruinada familia surenha, es una mujer madura y decadente que vive anclada en el pasado. Ciertas circunstancias la obligan a ir a vivir a Nueva Orleans con su hermana Stella y su cunhado Stanley (Marlon Brando), un hombre rudo y violento. A pesar de su actitud remilgada y arrogante, Blanche oculta un escabroso pasado que la ha conducido al desequilibrio mental. Su inestable conducta provoca conflictos que alteran la vida de la joven pareja."
+   }
+}
+
+{
+     "pelicula" : 
+    {
+	    "titulo" : "Rebelde sin causa",
+ 	   "director" : "Nicholas Ray",
+ 	   "genero" : "Drama",
+	"pais": "Estados Unidos",
+   	 "Anho" : 1955,
+   	 "formato" : "VHS",
+  	  "precio" : 4.0,
+  	  "vista" : true,
+ 	   "calificacion" : "Buena",
+ 	   "duracion" : 111,
+         "recaudacion": 4.5,
+  	  "argumento" : "Tres jovenes, Jim Stark, Judy y Platon, coinciden en una comisaria. Cada uno esta alli por un motivo distinto: Jim esta borracho, Judy se ha escapado de su casa y Platon acababa de matar a tiros a unos cachorros. El inspector Ray descubre que los tres mantienen una relacion conflictiva con sus familias. A Jim y a Judy los van a recoger sus padres, pero Platon, hijo de una pareja divorciada, tiene que conformarse con la visita de la criada negra que vive con el."
+   }
+}
+
+{
+    "pelicula" : 
+    {
+    "titulo" : "El discurso del rey",
+    "director" : "Tom Hooper",
+    "genero" : "Drama Historico",
+	"pais": "Reino Unido",
+    "Anho" : 2010,
+    "formato" : "MPEG",
+    "precio" : 9.0,
+    "vista" : true,
+    "calificacion" : "Muy Buena",
+    "duracion" : 125,
+     "recaudacion": 427.44,
+    "argumento" : "El duque de York se convirtio en rey de Inglaterra con el nombre de Jorge VI (1936-1952), tras la abdicacion de su hermano mayor, Eduardo VIII. Su tartamudez, que constituia un gran inconveniente para el ejercicio de sus funciones, lo llevo a buscar la ayuda de Lionel Logue, un experto logopeda que intento, empleando una serie de tecnicas poco ortodoxas, eliminar este defecto en el habla del monarca."
+   }
+}
+
+
+{
+    "pelicula" : 
+    {
+    "titulo" : "Mar adentro",
+    "director" : "Alejandro Amenabar",
+    "genero" : "Drama",
+	"pais": "España",
+    "Anho" : 2004,
+    "formato" : "MP4",
+    "precio" : 4.0,
+    "vista" : true,
+    "calificacion" : "Muy Buena",
+    "duracion" : 117,
+    "recaudacion": 43.7
+    },
+
+ "actores":[
+	{
+		"actor": { "Apellidos" : "Rueda",    "Nombre" : "Belen"},
+    		"pais" : "España", 
+   		 "sexo" : "Mujer", 
+   		 "fecNacimiento" : "1965/03/06"
+	},
+	{
+		"actor": { "Apellidos" : "Rivera", "Nombre" : "Mabel" },
+   		 "pais" : "España", 
+    		"sexo" : "Mujer", 
+    		"fecNacimiento" : "1952/06/16"
+	},
+	{
+		"actor": { "Apellidos" : "Bardem", "Nombre" : "Javier" },
+   		 "pais" : "España", 
+    		"sexo" : "Hombre", 
+    		"fecNacimiento" : "1969/03/01"
+	}
+
+        ],
+	"premios":[
+		"2004: Oscar: Mejor película habla no inglesa. 2 nominaciones",
+		"2004: Globos de Oro: Mejor Película de habla no inglesa. 2 nominaciones",
+		"2004: Festival de Venecia: León de Plata - Premio Especial del Jurado, Mejor Actor (Bardem)",
+		"2004: Premios del Cine Europeo: Mejor Director, Mejor Actor (Bardem)",
+		"2004: 14 Premios Goya, incluyendo mejor película, director, actor. 15 nominaciones",
+		"2004: National Board of Review: Mejor película extranjera",
+		"2004: Critics' Choice Awards: Mejor película de habla no inglesa. 2 nominaciones",
+		"2004: Premios Independent Spirit: Mejor película extranjera",
+		"2004: Premios David di Donatello: Mejor film europeo",
+		"2004: Premios Forqué: Mejor película",
+		"2005: Premios Ariel: Nominada a Mejor película iberoamericana",
+		"2005: Nominada al Cesar: Mejor película extranjera"
+	]
+   
+}
+
+{
+    "pelicula" : 
+    {
+   	 "titulo" : "Blade Runner",
+  	  "director" : "Ridley Scott",
+   	 "genero" : "Ciencia Ficcion",
+	"pais": "Estados Unidos",
+  	  "Anho" : 1982,
+  	  "formato" : "DVD",
+  	  "precio" : 4.0,
+ 	   "vista" : true,
+ 	   "calificacion" : "Buena",
+ 	   "duracion" : 121,
+         "recaudacion": 260.5
+    }
+}
+
+
+{
+     "pelicula" : 
+    {
+   	 "titulo" : "La Guerra de las Galaxias",
+   	 "director" : "George Lucas",
+   	 "genero" : "Ciencia Ficcion",
+	"pais": "Estados Unidos",
+  	  "Anho" : 1977,
+  	  "formato" : "VHS",
+  	  "precio" : 4.0,
+  	  "vista" : true,
+  	  "calificacion" : "Regular",
+  	  "duracion" : 121,
+         "recaudacion": 775.8
+  }
+}
+
+
+{
+     "pelicula" : 
+    {
+  	  "titulo" : "Indiana Jones En busca del Arca Perdida",
+  	  "director" : "Steven Spielberg",
+ 	   "genero" : "Aventura y Accion",
+	"pais": "Estados Unidos",
+ 	   "Anho" : 1981,
+ 	   "formato" : "VHS",
+   	 "precio" : 4.0,
+   	 "vista" : true,
+  	  "calificacion" : "Regular",
+  	  "duracion" : 115,
+         "recaudacion": 389.9
+    }
+}
+
+{
+     "pelicula" : 
+    {
+  	  "titulo" : "Intocable",
+  	  "director" : "Olivier Nakache",
+ 	   "genero" : "Comedia",
+	"pais": "Francia",
+ 	   "Anho" : 2011,
+ 	   "formato" : "MP4",
+   	 "precio" : 7.0,
+   	 "vista" : true,
+  	  "calificacion" : "Muy Buena",
+  	  "duracion" : 109,
+         "recaudacion": 389.9
+    }
+}
+
+
+{
+     "pelicula" : 
+    {
+  	  "titulo" : "Pequeña Miss Sunshine",
+  	  "director" : "Jonathan Dayton",
+ 	   "genero" : "Comedia",
+	"pais": "Estados Unidos",
+ 	   "Anho" : 2006,
+ 	   "formato" : "MP4",
+   	 "precio" : 7.0,
+   	 "vista" : true,
+  	  "calificacion" : "Muy Buena",
+  	  "duracion" : 101,
+         "recaudacion": 101.3
+    }
+}

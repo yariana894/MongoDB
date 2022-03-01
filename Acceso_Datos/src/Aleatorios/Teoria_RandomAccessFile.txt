@@ -1,0 +1,36 @@
+
+RandomAccessFile raf = new RandomAccessFile(String s, String modo)
+rw -> lectura / escritura
+
+
+RandomAccessFile raf = new RandomAccessFile("fic.dat", "rw")
+
+rw si es de lectura y escritura sino r si es solo de lectura
+
+raf.seek(150); ->-aquí puedo leer en el orden que a mi me de la gana por eso
+                 indicamos 150 bytes que se van a desplazar-
+
+length()-> el tamaño del fichero en bytes
+
+getFilePointer() -> el byte en la que se encuentra pero dentro del fichero
+
+
+=======Para escribir===
+writeXXX()
+    writeInt
+    writeDouble
+
+=======Para leer====
+readXXX()
+    readInt
+    readDouble
+
+
+byte -> 1 byte
+boolean -> 1 byte
+short -> 2 byte
+int -> 4 byte
+long -> 4 byte
+float -> 4 byte
+double -> 8 byte
+String -> 2 byte por cada carácter

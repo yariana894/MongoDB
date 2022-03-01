@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<employees>
+    <employee category="Operario" employeeCode="7070">
+        <name>Pepe</name>
+        <surname>Dominguez</surname>
+        <age>21</age>
+        <salaty>1450.75</salaty>
+    </employee>
+
+    <employee category="Operario temporal" employeeCode="7100">
+        <name>María</name>
+        <surname>García</surname>
+        <age>19</age>
+        <salaty>1008.90</salaty>
+    </employee>
+
+    <employee category="Jefe de Sección" employeeCode="1001">
+        <name>Pedro</name>
+        <surname>Rolando</surname>
+        <age>38</age>
+        <salaty>1893.34</salaty>
+    </employee>
+
+    <employee category="Maquinista" employeeCode="7022">
+        <name>Juan</name>
+        <surname>de Benito</surname>
+        <age>54</age>
+        <salaty>1858.68</salaty>
+    </employee>
+
+    <employee category="Seguridad">
+        <name>Lola</name>
+        <surname>Flores</surname>
+    </employee>
+</employees>

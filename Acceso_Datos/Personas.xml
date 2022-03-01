@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Personas>
+    <persona>
+        <clave>1</clave>
+        <nombre>isa</nombre>
+        <nota>9</nota>
+    </persona>
+    <persona>
+        <clave>3</clave>
+        <nombre>isabel</nombre>
+        <nota>7</nota>
+    </persona>
+    <persona>
+        <clave>5</clave>
+        <nombre>Juan</nombre>
+        <nota>7</nota>
+    </persona>
+    <persona>
+        <clave>6</clave>
+        <nombre>Maite</nombre>
+        <nota>6</nota>
+    </persona>
+    <persona>
+        <clave>8</clave>
+        <nombre>Teresa</nombre>
+        <nota>10</nota>
+    </persona>
+    <persona>
+        <clave>15</clave>
+        <nombre>Juan</nombre>
+        <nota>4</nota>
+    </persona>
+    <persona>
+        <clave>20</clave>
+        <nombre>pepe</nombre>
+        <nota>8</nota>
+    </persona>
+</Personas>

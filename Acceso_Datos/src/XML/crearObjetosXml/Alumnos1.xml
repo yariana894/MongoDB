@@ -1,0 +1,17 @@
+<ListadoAlumnos>
+  <DatosAlumno>
+    <dni>11111A</dni>
+    <nombre>Marta Aguirre</nombre>
+    <telefono>986141414</telefono>
+  </DatosAlumno>
+  <DatosAlumno>
+    <dni>222222B</dni>
+    <nombre>Ana Sanchez</nombre>
+    <telefono>627323232</telefono>
+  </DatosAlumno>
+  <DatosAlumno>
+    <dni>333333C</dni>
+    <nombre>Pedro Garcia</nombre>
+    <telefono>615545454</telefono>
+  </DatosAlumno>
+</ListadoAlumnos>
